@@ -14,6 +14,8 @@ This package defines a set of defaults for a document. It defines the following.
 * [x] Lists with `enumitem`
 * [x] Quotes with `csquotes`
 * [x] `tikz` and `graphicx` for diagrams and figures
+* [x] Standard math packages
+* [x] Math environments for Theorem, Lemma, etc.
 
 ## Repository information
 

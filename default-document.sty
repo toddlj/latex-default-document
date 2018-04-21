@@ -40,3 +40,28 @@
 % Diagrams and graphics
 \usepackage{tikz}
 \usepackage{graphicx}
+
+% Math, numbers and equations
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{tikz-cd}
+
+% Math environments
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=\parskip \thm@postskip=0pt
+}
+\makeatother
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{bigtheorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
