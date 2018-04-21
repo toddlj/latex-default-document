@@ -25,5 +25,5 @@ This repository is maintained by [Todd Liebenschutz-Jones](https://www.toddljone
 
 ### License
 
-This repository is licensed by a [MIT License](https://tldrlegal.com/license/mit-license).
+This repository is licensed by a [MIT License](https://opensource.org/licenses/MIT).
 See [LICENSE.txt](https://github.com/toddlj/latex-default-document/blob/master/LICENSE.txt) for full terms.
